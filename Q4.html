@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4</title>
+    <style>
+        body {background : black;}
+        .box{
+            background-color: red;
+            margin: 60px auto;
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box"></div>
+
+    <script>
+       /*document.getElementById("box").style.backgroundColor = "blue" ;*/
+       /*use setTimeout and setInterval methods to periodically change the box color between red and blue*/
+       /* time period of each color should be 500 miliseconds.*/
+       
+       /* write your code here*/
+       var colours = ["blue", "red"];
+       var i=0;
+       function change(){
+        document.getElementById("box").style.backgroundColor = colours[i];
+        i++;
+        if (i>1){
+            i=i%2;
+        }
+       }
+       setInterval(change, 500);
+        
+       
+
+    </script>    
+</body>
+</html>
