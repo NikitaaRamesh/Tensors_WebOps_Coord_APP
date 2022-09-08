@@ -1,0 +1,858 @@
+@charset "UTF-8";
+ @keyframes typed {
+   /* string 1, char 1 */
+    0%, 0.3769289494% {
+       content: "W";
+   }
+   /* string 1, char 2 */
+    0.3779289494%, 0.7548578987% {
+       content: "We";
+   }
+   /* string 1, char 3 */
+    0.7558578987%, 1.1327868481% {
+       content: "Wel";
+   }
+   /* string 1, char 4 */
+    1.1337868481%, 1.5107157974% {
+       content: "Welc";
+   }
+   /* string 1, char 5 */
+    1.5117157974%, 1.8886447468% {
+       content: "Welco";
+   }
+   /* string 1, char 6 */
+    1.8896447468%, 2.2665736961% {
+       content: "Welcom";
+   }
+   /* string 1, char 7 */
+    2.2675736961%, 2.6445026455% {
+       content: "Welcome";
+   }
+   /* string 1, char 8 */
+    2.6455026455%, 3.0224315949% {
+       content: "Welcome ";
+   }
+   /* string 1, char 9 */
+    3.0234315949%, 3.4003605442% {
+       content: "Welcome t";
+   }
+   /* string 1, char 10 */
+    3.4013605442%, 3.7782894936% {
+       content: "Welcome to";
+   }
+   /* string 1, char 11 */
+    3.7792894936%, 4.1562184429% {
+       content: "Welcome to ";
+   }
+   /* string 1, char 12 */
+    4.1572184429%, 4.5341473923% {
+       content: "Welcome to S";
+   }
+   /* string 1, char 13 */
+    4.5351473923%, 4.9120763416% {
+       content: "Welcome to St";
+   }
+   /* string 1, char 14 */
+    4.9130763416%, 5.290005291% {
+       content: "Welcome to Sta";
+   }
+   /* string 1, char 15 */
+    5.291005291%, 5.6679342404% {
+       content: "Welcome to Star";
+   }
+   /* string 1, char 16 */
+    5.6689342404%, 6.0458631897% {
+       content: "Welcome to Star ";
+   }
+   /* string 1, char 17 */
+    6.0468631897%, 6.4237921391% {
+       content: "Welcome to Star W";
+   }
+   /* string 1, char 18 */
+    6.4247921391%, 6.8017210884% {
+       content: "Welcome to Star Wa";
+   }
+   /* string 1, char 19 */
+    6.8027210884%, 7.1796500378% {
+       content: "Welcome to Star War";
+   }
+   /* string 1, char 20 */
+    7.1806500378%, 7.5575789872% {
+       content: "Welcome to Star Wars";
+   }
+   /* string 1, char 21 */
+    7.5585789872%, 7.9355079365% {
+       content: "Welcome to Star Wars ";
+   }
+   /* string 1, char 22 */
+    7.9365079365%, 8.3134368859% {
+       content: "Welcome to Star Wars D";
+   }
+   /* string 1, char 23 */
+    8.3144368859%, 8.6913658352% {
+       content: "Welcome to Star Wars Da";
+   }
+   /* string 1, char 24 */
+    8.6923658352%, 9.0692947846% {
+       content: "Welcome to Star Wars Dat";
+   }
+   /* string 1, char 25 */
+    9.0702947846%, 9.4472237339% {
+       content: "Welcome to Star Wars Data";
+   }
+   /* string 1, char 26 */
+    9.4482237339%, 9.8251526833% {
+       content: "Welcome to Star Wars Datab";
+   }
+   /* string 1, char 27 */
+    9.8261526833%, 10.2030816327% {
+       content: "Welcome to Star Wars Databa";
+   }
+   /* string 1, char 28 */
+    10.2040816327%, 10.581010582% {
+       content: "Welcome to Star Wars Databas";
+   }
+   /* string 1, char 29 */
+    10.582010582%, 10.9589395314% {
+       content: "Welcome to Star Wars Database";
+   }
+   /* string 1, char 30 */
+    10.9599395314%, 19.1977906274% {
+       content: "Welcome to Star Wars Database!";
+   }
+   /* string 1, char 31 */
+    19.1987906274%, 19.5001337868% {
+       content: "Welcome to Star Wars Database";
+   }
+   /* string 1, char 32 */
+    19.5011337868%, 19.8024769463% {
+       content: "Welcome to Star Wars Databas";
+   }
+   /* string 1, char 33 */
+    19.8034769463%, 20.1048201058% {
+       content: "Welcome to Star Wars Databa";
+   }
+   /* string 1, char 34 */
+    20.1058201058%, 20.4071632653% {
+       content: "Welcome to Star Wars Datab";
+   }
+   /* string 1, char 35 */
+    20.4081632653%, 20.7095064248% {
+       content: "Welcome to Star Wars Data";
+   }
+   /* string 1, char 36 */
+    20.7105064248%, 21.0118495843% {
+       content: "Welcome to Star Wars Dat";
+   }
+   /* string 1, char 37 */
+    21.0128495843%, 21.3141927438% {
+       content: "Welcome to Star Wars Da";
+   }
+   /* string 1, char 38 */
+    21.3151927438%, 21.6165359033% {
+       content: "Welcome to Star Wars D";
+   }
+   /* string 1, char 39 */
+    21.6175359033%, 21.9188790627% {
+       content: "Welcome to Star Wars ";
+   }
+   /* string 1, char 40 */
+    21.9198790627%, 22.2212222222% {
+       content: "Welcome to Star Wars";
+   }
+   /* string 1, char 41 */
+    22.2222222222%, 22.5235653817% {
+       content: "Welcome to Star War";
+   }
+   /* string 1, char 42 */
+    22.5245653817%, 22.8259085412% {
+       content: "Welcome to Star Wa";
+   }
+   /* string 1, char 43 */
+    22.8269085412%, 23.1282517007% {
+       content: "Welcome to Star W";
+   }
+   /* string 1, char 44 */
+    23.1292517007%, 23.4305948602% {
+       content: "Welcome to Star ";
+   }
+   /* string 1, char 45 */
+    23.4315948602%, 23.7329380197% {
+       content: "Welcome to Star";
+   }
+   /* string 1, char 46 */
+    23.7339380197%, 24.0352811791% {
+       content: "Welcome to Sta";
+   }
+   /* string 1, char 47 */
+    24.0362811791%, 24.3376243386% {
+       content: "Welcome to St";
+   }
+   /* string 1, char 48 */
+    24.3386243386%, 24.6399674981% {
+       content: "Welcome to S";
+   }
+   /* string 1, char 49 */
+    24.6409674981%, 24.9423106576% {
+       content: "Welcome to ";
+   }
+   /* string 1, char 50 */
+    24.9433106576%, 25.2446538171% {
+       content: "Welcome to";
+   }
+   /* string 1, char 51 */
+    25.2456538171%, 25.5469969766% {
+       content: "Welcome t";
+   }
+   /* string 1, char 52 */
+    25.5479969766%, 25.8493401361% {
+       content: "Welcome ";
+   }
+   /* string 1, char 53 */
+    25.8503401361%, 26.1516832955% {
+       content: "Welcome";
+   }
+   /* string 1, char 54 */
+    26.1526832955%, 26.454026455% {
+       content: "Welcom";
+   }
+   /* string 1, char 55 */
+    26.455026455%, 26.7563696145% {
+       content: "Welco";
+   }
+   /* string 1, char 56 */
+    26.7573696145%, 27.058712774% {
+       content: "Welc";
+   }
+   /* string 1, char 57 */
+    27.059712774%, 27.3610559335% {
+       content: "Wel";
+   }
+   /* string 1, char 58 */
+    27.3620559335%, 27.663399093% {
+       content: "We";
+   }
+   /* string 1, char 59 */
+    27.664399093%, 27.9657422525% {
+       content: "W";
+   }
+   /* string 1, char 60 */
+    27.9667422525%, 31.745031746% {
+       content: "​";
+   }
+   /* string 2, char 1 */
+    31.746031746%, 32.1229606954% {
+       content: "T";
+   }
+   /* string 2, char 2 */
+    32.1239606954%, 32.5008896447% {
+       content: "Th";
+   }
+   /* string 2, char 3 */
+    32.5018896447%, 32.8788185941% {
+       content: "Thi";
+   }
+   /* string 2, char 4 */
+    32.8798185941%, 33.2567475435% {
+       content: "This";
+   }
+   /* string 2, char 5 */
+    33.2577475435%, 33.6346764928% {
+       content: "This ";
+   }
+   /* string 2, char 6 */
+    33.6356764928%, 34.0126054422% {
+       content: "This a";
+   }
+   /* string 2, char 7 */
+    34.0136054422%, 34.3905343915% {
+       content: "This ap";
+   }
+   /* string 2, char 8 */
+    34.3915343915%, 34.7684633409% {
+       content: "This app";
+   }
+   /* string 2, char 9 */
+    34.7694633409%, 35.1463922902% {
+       content: "This app ";
+   }
+   /* string 2, char 10 */
+    35.1473922902%, 35.5243212396% {
+       content: "This app c";
+   }
+   /* string 2, char 11 */
+    35.5253212396%, 35.902250189% {
+       content: "This app co";
+   }
+   /* string 2, char 12 */
+    35.903250189%, 36.2801791383% {
+       content: "This app con";
+   }
+   /* string 2, char 13 */
+    36.2811791383%, 36.6581080877% {
+       content: "This app cont";
+   }
+   /* string 2, char 14 */
+    36.6591080877%, 37.036037037% {
+       content: "This app conta";
+   }
+   /* string 2, char 15 */
+    37.037037037%, 37.4139659864% {
+       content: "This app contai";
+   }
+   /* string 2, char 16 */
+    37.4149659864%, 37.7918949358% {
+       content: "This app contain";
+   }
+   /* string 2, char 17 */
+    37.7928949358%, 38.1698238851% {
+       content: "This app contains";
+   }
+   /* string 2, char 18 */
+    38.1708238851%, 38.5477528345% {
+       content: "This app contains ";
+   }
+   /* string 2, char 19 */
+    38.5487528345%, 38.9256817838% {
+       content: "This app contains i";
+   }
+   /* string 2, char 20 */
+    38.9266817838%, 39.3036107332% {
+       content: "This app contains in";
+   }
+   /* string 2, char 21 */
+    39.3046107332%, 39.6815396825% {
+       content: "This app contains inf";
+   }
+   /* string 2, char 22 */
+    39.6825396825%, 40.0594686319% {
+       content: "This app contains info";
+   }
+   /* string 2, char 23 */
+    40.0604686319%, 40.4373975813% {
+       content: "This app contains info ";
+   }
+   /* string 2, char 24 */
+    40.4383975813%, 40.8153265306% {
+       content: "This app contains info a";
+   }
+   /* string 2, char 25 */
+    40.8163265306%, 41.19325548% {
+       content: "This app contains info ab";
+   }
+   /* string 2, char 26 */
+    41.19425548%, 41.5711844293% {
+       content: "This app contains info abo";
+   }
+   /* string 2, char 27 */
+    41.5721844293%, 41.9491133787% {
+       content: "This app contains info abou";
+   }
+   /* string 2, char 28 */
+    41.9501133787%, 42.327042328% {
+       content: "This app contains info about";
+   }
+   /* string 2, char 29 */
+    42.328042328%, 42.7049712774% {
+       content: "This app contains info about ";
+   }
+   /* string 2, char 30 */
+    42.7059712774%, 43.0829002268% {
+       content: "This app contains info about S";
+   }
+   /* string 2, char 31 */
+    43.0839002268%, 43.4608291761% {
+       content: "This app contains info about St";
+   }
+   /* string 2, char 32 */
+    43.4618291761%, 43.8387581255% {
+       content: "This app contains info about Sta";
+   }
+   /* string 2, char 33 */
+    43.8397581255%, 44.2166870748% {
+       content: "This app contains info about Star";
+   }
+   /* string 2, char 34 */
+    44.2176870748%, 44.5946160242% {
+       content: "This app contains info about Star ";
+   }
+   /* string 2, char 35 */
+    44.5956160242%, 44.9725449735% {
+       content: "This app contains info about Star W";
+   }
+   /* string 2, char 36 */
+    44.9735449735%, 45.3504739229% {
+       content: "This app contains info about Star Wa";
+   }
+   /* string 2, char 37 */
+    45.3514739229%, 45.7284028723% {
+       content: "This app contains info about Star War";
+   }
+   /* string 2, char 38 */
+    45.7294028723%, 46.1063318216% {
+       content: "This app contains info about Star Wars";
+   }
+   /* string 2, char 39 */
+    46.1073318216%, 46.484260771% {
+       content: "This app contains info about Star Wars ";
+   }
+   /* string 2, char 40 */
+    46.485260771%, 46.8621897203% {
+       content: "This app contains info about Star Wars c";
+   }
+   /* string 2, char 41 */
+    46.8631897203%, 47.2401186697% {
+       content: "This app contains info about Star Wars ch";
+   }
+   /* string 2, char 42 */
+    47.2411186697%, 47.618047619% {
+       content: "This app contains info about Star Wars cha";
+   }
+   /* string 2, char 43 */
+    47.619047619%, 47.9959765684% {
+       content: "This app contains info about Star Wars char";
+   }
+   /* string 2, char 44 */
+    47.9969765684%, 48.3739055178% {
+       content: "This app contains info about Star Wars chara";
+   }
+   /* string 2, char 45 */
+    48.3749055178%, 48.7518344671% {
+       content: "This app contains info about Star Wars charac";
+   }
+   /* string 2, char 46 */
+    48.7528344671%, 49.1297634165% {
+       content: "This app contains info about Star Wars charact";
+   }
+   /* string 2, char 47 */
+    49.1307634165%, 49.5076923658% {
+       content: "This app contains info about Star Wars characte";
+   }
+   /* string 2, char 48 */
+    49.5086923658%, 49.8856213152% {
+       content: "This app contains info about Star Wars character";
+   }
+   /* string 2, char 49 */
+    49.8866213152%, 58.1244724112% {
+       content: "This app contains info about Star Wars characters.";
+   }
+   /* string 2, char 50 */
+    58.1254724112%, 58.4268155707% {
+       content: "This app contains info about Star Wars character";
+   }
+   /* string 2, char 51 */
+    58.4278155707%, 58.7291587302% {
+       content: "This app contains info about Star Wars characte";
+   }
+   /* string 2, char 52 */
+    58.7301587302%, 59.0315018896% {
+       content: "This app contains info about Star Wars charact";
+   }
+   /* string 2, char 53 */
+    59.0325018896%, 59.3338450491% {
+       content: "This app contains info about Star Wars charac";
+   }
+   /* string 2, char 54 */
+    59.3348450491%, 59.6361882086% {
+       content: "This app contains info about Star Wars chara";
+   }
+   /* string 2, char 55 */
+    59.6371882086%, 59.9385313681% {
+       content: "This app contains info about Star Wars char";
+   }
+   /* string 2, char 56 */
+    59.9395313681%, 60.2408745276% {
+       content: "This app contains info about Star Wars cha";
+   }
+   /* string 2, char 57 */
+    60.2418745276%, 60.5432176871% {
+       content: "This app contains info about Star Wars ch";
+   }
+   /* string 2, char 58 */
+    60.5442176871%, 60.8455608466% {
+       content: "This app contains info about Star Wars c";
+   }
+   /* string 2, char 59 */
+    60.8465608466%, 61.147904006% {
+       content: "This app contains info about Star Wars ";
+   }
+   /* string 2, char 60 */
+    61.148904006%, 61.4502471655% {
+       content: "This app contains info about Star Wars";
+   }
+   /* string 2, char 61 */
+    61.4512471655%, 61.752590325% {
+       content: "This app contains info about Star War";
+   }
+   /* string 2, char 62 */
+    61.753590325%, 62.0549334845% {
+       content: "This app contains info about Star Wa";
+   }
+   /* string 2, char 63 */
+    62.0559334845%, 62.357276644% {
+       content: "This app contains info about Star W";
+   }
+   /* string 2, char 64 */
+    62.358276644%, 62.6596198035% {
+       content: "This app contains info about Star ";
+   }
+   /* string 2, char 65 */
+    62.6606198035%, 62.961962963% {
+       content: "This app contains info about Star";
+   }
+   /* string 2, char 66 */
+    62.962962963%, 63.2643061224% {
+       content: "This app contains info about Sta";
+   }
+   /* string 2, char 67 */
+    63.2653061224%, 63.5666492819% {
+       content: "This app contains info about St";
+   }
+   /* string 2, char 68 */
+    63.5676492819%, 63.8689924414% {
+       content: "This app contains info about S";
+   }
+   /* string 2, char 69 */
+    63.8699924414%, 64.1713356009% {
+       content: "This app contains info about ";
+   }
+   /* string 2, char 70 */
+    64.1723356009%, 64.4736787604% {
+       content: "This app contains info about";
+   }
+   /* string 2, char 71 */
+    64.4746787604%, 64.7760219199% {
+       content: "This app contains info abou";
+   }
+   /* string 2, char 72 */
+    64.7770219199%, 65.0783650794% {
+       content: "This app contains info abo";
+   }
+   /* string 2, char 73 */
+    65.0793650794%, 65.3807082389% {
+       content: "This app contains info ab";
+   }
+   /* string 2, char 74 */
+    65.3817082389%, 65.6830513983% {
+       content: "This app contains info a";
+   }
+   /* string 2, char 75 */
+    65.6840513983%, 65.9853945578% {
+       content: "This app contains info ";
+   }
+   /* string 2, char 76 */
+    65.9863945578%, 66.2877377173% {
+       content: "This app contains info";
+   }
+   /* string 2, char 77 */
+    66.2887377173%, 66.5900808768% {
+       content: "This app contains inf";
+   }
+   /* string 2, char 78 */
+    66.5910808768%, 66.8924240363% {
+       content: "This app contains in";
+   }
+   /* string 2, char 79 */
+    66.8934240363%, 67.1947671958% {
+       content: "This app contains i";
+   }
+   /* string 2, char 80 */
+    67.1957671958%, 67.4971103553% {
+       content: "This app contains ";
+   }
+   /* string 2, char 81 */
+    67.4981103553%, 67.7994535147% {
+       content: "This app contains";
+   }
+   /* string 2, char 82 */
+    67.8004535147%, 68.1017966742% {
+       content: "This app contain";
+   }
+   /* string 2, char 83 */
+    68.1027966742%, 68.4041398337% {
+       content: "This app contai";
+   }
+   /* string 2, char 84 */
+    68.4051398337%, 68.7064829932% {
+       content: "This app conta";
+   }
+   /* string 2, char 85 */
+    68.7074829932%, 69.0088261527% {
+       content: "This app cont";
+   }
+   /* string 2, char 86 */
+    69.0098261527%, 69.3111693122% {
+       content: "This app con";
+   }
+   /* string 2, char 87 */
+    69.3121693122%, 69.6135124717% {
+       content: "This app co";
+   }
+   /* string 2, char 88 */
+    69.6145124717%, 69.9158556311% {
+       content: "This app c";
+   }
+   /* string 2, char 89 */
+    69.9168556311%, 70.2181987906% {
+       content: "This app ";
+   }
+   /* string 2, char 90 */
+    70.2191987906%, 70.5205419501% {
+       content: "This app";
+   }
+   /* string 2, char 91 */
+    70.5215419501%, 70.8228851096% {
+       content: "This ap";
+   }
+   /* string 2, char 92 */
+    70.8238851096%, 71.1252282691% {
+       content: "This a";
+   }
+   /* string 2, char 93 */
+    71.1262282691%, 71.4275714286% {
+       content: "This ";
+   }
+   /* string 2, char 94 */
+    71.4285714286%, 71.7299145881% {
+       content: "This";
+   }
+   /* string 2, char 95 */
+    71.7309145881%, 72.0322577475% {
+       content: "Thi";
+   }
+   /* string 2, char 96 */
+    72.0332577475%, 72.334600907% {
+       content: "Th";
+   }
+   /* string 2, char 97 */
+    72.335600907%, 72.6369440665% {
+       content: "T";
+   }
+   /* string 2, char 98 */
+    72.6379440665%, 76.4162335601% {
+       content: "​";
+   }
+   /* string 3, char 1 */
+    76.4172335601%, 76.7941625094% {
+       content: "H";
+   }
+   /* string 3, char 2 */
+    76.7951625094%, 77.1720914588% {
+       content: "Ho";
+   }
+   /* string 3, char 3 */
+    77.1730914588%, 77.5500204082% {
+       content: "Hop";
+   }
+   /* string 3, char 4 */
+    77.5510204082%, 77.9279493575% {
+       content: "Hope";
+   }
+   /* string 3, char 5 */
+    77.9289493575%, 78.3058783069% {
+       content: "Hope ";
+   }
+   /* string 3, char 6 */
+    78.3068783069%, 78.6838072562% {
+       content: "Hope y";
+   }
+   /* string 3, char 7 */
+    78.6848072562%, 79.0617362056% {
+       content: "Hope yo";
+   }
+   /* string 3, char 8 */
+    79.0627362056%, 79.439665155% {
+       content: "Hope you";
+   }
+   /* string 3, char 9 */
+    79.440665155%, 79.8175941043% {
+       content: "Hope you ";
+   }
+   /* string 3, char 10 */
+    79.8185941043%, 80.1955230537% {
+       content: "Hope you e";
+   }
+   /* string 3, char 11 */
+    80.1965230537%, 80.573452003% {
+       content: "Hope you en";
+   }
+   /* string 3, char 12 */
+    80.574452003%, 80.9513809524% {
+       content: "Hope you enj";
+   }
+   /* string 3, char 13 */
+    80.9523809524%, 81.3293099017% {
+       content: "Hope you enjo";
+   }
+   /* string 3, char 14 */
+    81.3303099017%, 81.7072388511% {
+       content: "Hope you enjoy";
+   }
+   /* string 3, char 15 */
+    81.7082388511%, 82.0851678005% {
+       content: "Hope you enjoy ";
+   }
+   /* string 3, char 16 */
+    82.0861678005%, 82.4630967498% {
+       content: "Hope you enjoy i";
+   }
+   /* string 3, char 17 */
+    82.4640967498%, 82.8410256992% {
+       content: "Hope you enjoy it";
+   }
+   /* string 3, char 18 */
+    82.8420256992%, 91.0798767952% {
+       content: "Hope you enjoy it!";
+   }
+   /* string 3, char 19 */
+    91.0808767952%, 91.3822199546% {
+       content: "Hope you enjoy it";
+   }
+   /* string 3, char 20 */
+    91.3832199546%, 91.6845631141% {
+       content: "Hope you enjoy i";
+   }
+   /* string 3, char 21 */
+    91.6855631141%, 91.9869062736% {
+       content: "Hope you enjoy ";
+   }
+   /* string 3, char 22 */
+    91.9879062736%, 92.2892494331% {
+       content: "Hope you enjoy";
+   }
+   /* string 3, char 23 */
+    92.2902494331%, 92.5915925926% {
+       content: "Hope you enjo";
+   }
+   /* string 3, char 24 */
+    92.5925925926%, 92.8939357521% {
+       content: "Hope you enj";
+   }
+   /* string 3, char 25 */
+    92.8949357521%, 93.1962789116% {
+       content: "Hope you en";
+   }
+   /* string 3, char 26 */
+    93.1972789116%, 93.4986220711% {
+       content: "Hope you e";
+   }
+   /* string 3, char 27 */
+    93.4996220711%, 93.8009652305% {
+       content: "Hope you ";
+   }
+   /* string 3, char 28 */
+    93.8019652305%, 94.10330839% {
+       content: "Hope you";
+   }
+   /* string 3, char 29 */
+    94.10430839%, 94.4056515495% {
+       content: "Hope yo";
+   }
+   /* string 3, char 30 */
+    94.4066515495%, 94.707994709% {
+       content: "Hope y";
+   }
+   /* string 3, char 31 */
+    94.708994709%, 95.0103378685% {
+       content: "Hope ";
+   }
+   /* string 3, char 32 */
+    95.0113378685%, 95.312681028% {
+       content: "Hope";
+   }
+   /* string 3, char 33 */
+    95.313681028%, 95.6150241875% {
+       content: "Hop";
+   }
+   /* string 3, char 34 */
+    95.6160241875%, 95.9173673469% {
+       content: "Ho";
+   }
+   /* string 3, char 35 */
+    95.9183673469%, 96.2197105064% {
+       content: "H";
+   }
+   /* string 3, char 36 */
+    96.2207105064%, 100% {
+       content: "​";
+   }
+}
+ @keyframes beam-blink {
+    75% {
+       border-color: transparent;
+   }
+}
+
+@font-face {
+    font-family: dogica;
+    src: url(dogica.ttf);
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    backface-visibility: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('40c712e5f3833bc38dbe1213da27069e.jpg') no-repeat center center fixed;
+    background-size: cover, 100% 3px;
+    font-size: 25px;
+    font-family: 'VT323', monospace, sans-serif;
+    color: rgb(51, 255, 231);
+}
+ .container {
+    
+    
+    padding:150px 0px 0px 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container::after {
+    content: "";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 252, 255, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 255, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 255, 0.75);
+    white-space: nowrap;
+    animation: typed 26.46s linear 1s infinite, beam-blink 1s infinite;
+}
+
+.box{
+    color: rgb(51, 255, 231);
+    border: 2px solid aqua;
+    backdrop-filter:blur(20px) brightness(110%);
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 20px 100px 20px 20px;
+    align-items: center;
+    
+}
+
+button{
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: calc(5px + 1.1vw);
+    color: #090000;
+    background-image: linear-gradient(to right,#1764c2,#00d9ed)
+}
+button:hover{
+    background-image: linear-gradient(to right,#00d9ed,#1764c2);
+}
+
+span{
+    color: rgb(142, 142, 142);
+}
